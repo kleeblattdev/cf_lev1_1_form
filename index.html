@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeFlow Übung lev1_1: forms</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <section class="formular">
+        <form action="">
+            <div>
+            <h2>Name</h2>
+            <input type="text" name="vorname" id="vorname" placeholder="Vorname" required>
+            <input type="text" name="nachname" id="nachname" placeholder="Nachname" required>
+            </div>
+            <div>
+                <h2>Email</h2>
+                <input type="email" name="mail" id="mail" required>
+            </div>
+            <div>
+                <h2>Thema</h2>
+                <select name="thema" id="thema">
+                    <option value="general">General</option>
+                    <option value="advertise">Advertise</option>
+                    <option value="partnership">Partnership</option>
+                </select>
+            </div>
+            <div>
+                <h2>Nachricht</h2>
+                <textarea name="nachricht" id="nachricht" cols="30" rows="10" required></textarea>
+            </div>
+            <div>
+                <input type="submit" value="submit" class="submitbtn">
+            </div>
+        </form>
+    </section>
+</body>
+</html>

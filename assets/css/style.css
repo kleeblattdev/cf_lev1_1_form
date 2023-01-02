@@ -1,0 +1,21 @@
+h2::after{
+    content: '*';
+    color: red;
+}
+
+h2{
+    font-size: 1.2rem;
+}
+
+form{
+    border: 1px dotted black;
+    width: 400px;
+    margin: auto;
+}
+
+.submitbtn{
+    text-align: center;
+    background-color: blue;
+    color: antiquewhite;
+    
+}
